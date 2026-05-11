@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 76px;
+    height: 75px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav_links{
+    display: flex;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+.nav_links a{
+    padding-left: 13px;
+    padding-right: 13px;
+    cursor: pointer;
+}
+
+.action_buttons{
+    display: flex;
+    gap: 25px;
+}
+
+.login{
+    border: 1px solid white;
+    padding: 10px 33px;
+    border-radius: 5px;
+}
+
+.register{
+    background-color: #D32323;
+    padding: 10px 23px;
+    border-radius: 5px;
+}
+
+.hero{
+    color: white;
+    margin: 110px 0px 0px 57px;
+    background-color: black;
+}
+
+.hero h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.hero p{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.img_container{
+    margin-top: 25px;
+    display: flex;
+    gap: 20px;
+}
+
+.rbr{
+    display: flex;
+    font-weight: 700;
+    font-size: 18px;
+    margin: auto;
+    justify-self: center;
+}
+
+.rent{
+    padding: 28px 61px 20px;
+}
+
+.rent, .roommate{
+    background-color: #F6F8FA;
+}
+.buy{
+    background-color: #D32323;
+    color: white;
+    padding: 28px 64px 20px;
+}
+
+.roommate{
+    padding: 28px 36px 20px
+}
+
+/* .rent, .roommate, .buy{
+    width: 160px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */

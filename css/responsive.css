@@ -1,0 +1,80 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .menu{
+        display: block;
+    }
+    .nav_links{
+        display: none;
+    }
+
+    .login{
+        display: none;
+    }
+
+    .hero{
+        margin-left: 10px;
+    }
+
+    .rent, .buy, .roommate{
+        padding: 10px 20px;
+    }
+
+    .rent2, .buy2, .roommate2, .rbr{
+        width: 100%;
+    }
+
+    .quick_search_form{
+        width: 100%;
+        position: relative;
+    }
+
+    .quick_search{
+        flex-direction: column;
+        align-self: center;
+        width: 90%;
+    }
+    .quick_search_item_container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .search{
+        text-align: center;
+        width: 90%;
+        margin: auto;
+    }
+
+    .hero{
+        padding-bottom: 0px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px){
+    .nav_links{
+        display: none;
+    }
+
+    .menu{
+        display: block;
+    }
+
+    .quick_search_form{
+        width: 90%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

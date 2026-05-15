@@ -5,11 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 <body>
-  <div>
+  <div class="fake-body">
 
-    
+    <!-- Nobile Nav -->
+     <nav class="mobile_nav">
+        <a href="">Home</a>
+        <a href="">Properties</a>
+        <a href="">Find Roommate</a>
+        <a href="">Explore</a>
+        <a href="">Blog</a>
+        <a href="" class="mobile-login">Login</a>
+     </nav>
+
+     <div class="mobile_overlay"></div>
     <!-- Hero Section -->
     <section class="hero_section">
 
@@ -25,11 +36,11 @@
 
             <!-- nav links -->
             <div class="nav_links">
-                <a href="">Home</a>
-                <a href="">properties</a>
-                <a href="">Find Roommate</a>
-                <a href="">Explore</a>
-                <a href="">Blog</a>
+                <a href="./test.html">Home</a>
+                <a href="https://www.figma.com/files/team/1479843868245230694/recents-and-sharing?fuid=1479843866292854393">properties</a>
+                <a href="https://app.slack.com/client/T0B2SLY3BU3/C0B3TAUU5T2">Find Roommate</a>
+                <a href="https://www.w3schools.com/">Explore</a>
+                <a href="https://slack.com/">Blog</a>
             </div>
 
             <!-- action buttons -->
@@ -37,6 +48,8 @@
                 <a href="" class="login">Login</a>
                 <a href="" class="register">Register</a>
             </div>
+
+            <button class="menu">Menu</button>
         </nav>
 
         <!-- Hero banner -->
@@ -53,27 +66,32 @@
         <!-- Quick search form -->
         <div class="quick_search_form">
             <!-- Rent Buy and Roommate -->
-            <div class="rbr">
+            <!-- <div class="rbr">
                 <p class="rent">Rent</p>
                 <p class="buy">Buy</p>
                 <p class="roommate">Roommate</p>
+            </div> -->
+            <div class="rbr">
+                <p class="rent2">Rent</p>
+                <p class="buy2">Buy</p>
+                <p class="roommate2">Roommate</p>
             </div>
 
             <!-- Quick search -->
             <div class="quick_search">
-                <div>
+                <div class="quick_search_item_container">
                     <p class="quick_search_item">Location &nbsp; <img src="./icons/down_arrow.svg" alt=""></p>
                     <p class="quick_search_option">Abuja</p>
                 </div>
-                <div>
+                <div class="quick_search_item_container">
                     <p class="quick_search_item">Location &nbsp; <img src="./icons/down_arrow.svg" alt=""></p>
                     <p class="quick_search_option">Abuja</p>
                 </div>
-                <div>
+                <div class="quick_search_item_container">
                     <p class="quick_search_item">Location &nbsp; <img src="./icons/down_arrow.svg" alt=""></p>
                     <p class="quick_search_option">Abuja</p>
                 </div>
-                <div>
+                <div class="quick_search_item_container">
                     <p class="quick_search_item">Location &nbsp; <img src="./icons/down_arrow.svg" alt=""></p>
                     <p class="quick_search_option">Abuja</p>
                 </div>
@@ -110,7 +128,7 @@
                     </div>
 
                     <!-- Flats -->
-                    <div class="flats">
+                    <div id="flats">
                     </div>
                 </div>
 

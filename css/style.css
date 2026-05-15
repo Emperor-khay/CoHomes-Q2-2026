@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 .hero_section{
     background-image: url(../images/hero_bg.png);
     background-repeat: no-repeat;
@@ -39,6 +40,46 @@ a{
     cursor: pointer;
 }
 
+.fake-body{
+    position: relative;
+}
+
+.mobile_nav{
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #7a7979;
+    z-index: 999;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    padding: 30px 0px;
+}
+
+.mobile_nav a{
+    color: black;
+    display: block;
+    text-align: center;
+    background-color: white;
+    width: 80%;
+    padding: 10px 0px;
+    border-radius: 10px;
+}
+
+.mobile_overlay{
+    background-color: #00000085;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+}
+
 .action_buttons{
     display: flex;
     gap: 25px;
@@ -54,6 +95,13 @@ a{
     background-color: #D32323;
     padding: 10px 23px;
     border-radius: 5px;
+}
+
+.menu{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    display: none;
 }
 
 .hero{
@@ -85,16 +133,21 @@ a{
     font-weight: 700;
     font-size: 18px;
     margin: auto;
-    justify-self: center;
-}
+    justify-self: center;}
 
 .rent{
     padding: 28px 61px 20px;
 }
 
-.rent, .roommate{
+.rent, .roommate, .rent2, .roommate2{
     background-color: #F6F8FA;
 }
+
+.buy2{
+     background-color: #D32323;
+    color: white;
+}
+
 .buy{
     background-color: #D32323;
     color: white;
@@ -105,13 +158,13 @@ a{
     padding: 28px 36px 20px
 }
 
-/* .rent, .roommate, .buy{
+.rent2, .roommate2, .buy2{
     width: 160px;
     height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
-} */
+}
 
 .quick_search{
     background-color: white;
@@ -149,6 +202,9 @@ a{
     flex-direction: column;
     justify-self: center;
     z-index: 10;
+
+    gap: 10px;
+
 }
 
 .overlay{
@@ -236,6 +292,14 @@ a{
     z-index: 5;
 }
 
-.flats{
+#flats{
     background-image: url(../images/flats.png);
 }
+
+/* .nav_links a:hover{
+    background-color: #D32323;
+}
+
+.nav_links a:visited{
+    color: #00000040;
+} */
